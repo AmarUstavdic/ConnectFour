@@ -1,4 +1,4 @@
-package com.mygame.app.networking;
+package myproject.ConnectFour.model.networking;
 
 import java.util.ArrayList;
 

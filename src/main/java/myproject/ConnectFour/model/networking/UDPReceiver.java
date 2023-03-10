@@ -1,6 +1,7 @@
-package com.mygame.app.networking;
+package myproject.ConnectFour.model.networking;
 
 import com.google.gson.Gson;
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

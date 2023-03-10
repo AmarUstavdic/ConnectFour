@@ -1,4 +1,4 @@
-package com.mygame.app.networking;
+package myproject.ConnectFour.model.networking;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -30,7 +30,7 @@ public class RoutingTableUpdater extends Thread {
                             node.getIp());
 
                     UDPMessageQueue.addMessage(message);
-                    System.out.println("Message added to queue: ");
+                    System.out.print("Message added to queue: ");
                     message.print();
                 }
             }

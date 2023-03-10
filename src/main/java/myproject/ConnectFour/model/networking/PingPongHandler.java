@@ -1,6 +1,6 @@
-package com.mygame.app.networking;
+package myproject.ConnectFour.model.networking;
 
-import com.mygame.app.Constants;
+import myproject.ConnectFour.Constants;
 
 import java.util.ArrayList;
 

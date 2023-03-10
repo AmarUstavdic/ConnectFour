@@ -1,7 +1,10 @@
-package com.mygame.app.networking;
+package myproject.ConnectFour.model.networking;
 
 import java.time.Instant;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
 
 public class RoutingTable {
 
