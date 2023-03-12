@@ -30,8 +30,8 @@ public class RoutingTableUpdater extends Thread {
                             node.getIp());
 
                     UDPMessageQueue.addMessage(message);
-                    System.out.print("Message added to queue: ");
-                    message.print();
+                    //System.out.print("Message added to queue: ");
+                    //message.print();
                 }
             }
 

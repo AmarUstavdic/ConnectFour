@@ -1,7 +1,9 @@
 package myproject.ConnectFour;
 
 import myproject.ConnectFour.model.networking.*;
+import myproject.ConnectFour.view.View;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -42,12 +44,9 @@ public class Main {
         executorService.submit(pingPongHandler);
 
 
-        // GUI
-        //new MainFrame();
 
-
-
-
+        // starting UI
+        SwingUtilities.invokeLater(View::new);
 
 
 
